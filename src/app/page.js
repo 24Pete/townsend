@@ -40,7 +40,7 @@ repeatItems(document.querySelector(".grid"), 20);
   
      
        <main> 
-          <div className="content">
+          <div className="grid">
             <div className="grid text-[50px]">
             <div className="grid__item"> 1</div>
             <div className="grid__item">2</div>
@@ -63,8 +63,6 @@ repeatItems(document.querySelector(".grid"), 20);
             <div className="grid__item"> 19</div>
             <div className="grid__item"> 20</div>
 
-
-            </div>
           </div>
        </main>
 
