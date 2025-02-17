@@ -1,6 +1,4 @@
 "use client";
-
-
 import Image from "next/image";
 import Lenis from 'lenis';
 import { useEffect } from "react";
@@ -40,7 +38,7 @@ repeatItems(document.querySelector(".grid"), 20);
   
      
        <main> 
-          <div className="grid">
+
             <div className="grid text-[50px]">
             <div className="grid__item"> 1</div>
             <div className="grid__item">2</div>
