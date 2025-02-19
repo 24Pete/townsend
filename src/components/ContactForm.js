@@ -1,6 +1,5 @@
 "use client";
 import { useState } from "react";
-import { sendEmail } from "../actions/sendEmail";
 
 export default function ContactForm() {
   const [status, setStatus] = useState(null);
@@ -12,28 +11,25 @@ export default function ContactForm() {
     const formData = new FormData(event.target);
 
     try {
-      // Get reCAPTCHA token
-      const recaptchaToken = await fetch("/api/recaptcha", {
-        method: "POST",
-      }).then((res) => res.json());
+      // Fetch reCAPTCHA token
+      const { token } = await fetch("/api/recaptcha", { method: "POST" }).then(res => res.json());
 
-      if (!recaptchaToken.success) {
+      if (!token) {
         setStatus("reCAPTCHA verification failed.");
         return;
       }
 
-      formData.append("g-recaptcha-response", recaptchaToken.token);
+      formData.append("g-recaptcha-response", token);
 
-      // Send form data to server
-      const response = await sendEmail(formData);
-      if (response.success) {
-        setStatus("Email sent successfully!");
-        event.target.reset();
-      } else {
-        setStatus("Failed to send email.");
-      }
+      const response = await fetch("/api/sendEmail", {
+        method: "POST",
+        body: formData,
+      });
+
+      const result = await response.json();
+      setStatus(result.success ? "Email sent!" : "Email failed.");
     } catch (error) {
-      console.error("Error submitting form:", error);
+      console.error("Error:", error);
       setStatus("An error occurred.");
     }
   }
