@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import { GoogleReCaptchaProvider, useGoogleReCaptcha } from "react-google-recaptcha-v3";
+import { GoogleReCaptchaProvider, useGoogleReCaptcha } from "npm i next-recaptcha-v3";
 
 function ContactForm() {
   const [status, setStatus] = useState(null);
