@@ -1,25 +1,30 @@
 "use client";
 import { useState } from "react";
+import { GoogleReCaptchaProvider, useGoogleReCaptcha } from "react-google-recaptcha-v3";
 
-export default function ContactForm() {
+function ContactForm() {
   const [status, setStatus] = useState(null);
+  const { executeRecaptcha } = useGoogleReCaptcha();
 
   async function handleSubmit(event) {
     event.preventDefault();
     setStatus("Verifying reCAPTCHA...");
 
-    const formData = new FormData(event.target);
+    if (!executeRecaptcha) {
+      setStatus("reCAPTCHA not available.");
+      return;
+    }
 
     try {
-      // Fetch reCAPTCHA token
-      const { token } = await fetch("/api/recaptcha", { method: "POST" }).then(res => res.json());
+      const token = await executeRecaptcha("contact_form");
 
       if (!token) {
         setStatus("reCAPTCHA verification failed.");
         return;
       }
 
-      formData.append("g-recaptcha-response", token);
+      const formData = new FormData(event.target);
+      formData.append("recaptchaToken", token);
 
       const response = await fetch("/api/sendEmail", {
         method: "POST",
@@ -27,7 +32,7 @@ export default function ContactForm() {
       });
 
       const result = await response.json();
-      setStatus(result.success ? "Email sent!" : "Email failed.");
+      setStatus(result.success ? "Email sent!" : "Error sending email.");
     } catch (error) {
       console.error("Error:", error);
       setStatus("An error occurred.");
@@ -43,5 +48,14 @@ export default function ContactForm() {
       <button type="submit" className="bg-blue-500 text-white p-2">Send Email</button>
       {status && <p className="text-green-500">{status}</p>}
     </form>
+  );
+}
+
+// Wrap Form with reCAPTCHA Provider
+export default function WrappedContactForm() {
+  return (
+    <GoogleReCaptchaProvider reCaptchaKey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY}>
+      <ContactForm />
+    </GoogleReCaptchaProvider>
   );
 }
