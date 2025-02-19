@@ -41,7 +41,7 @@ export default function RootLayout({ children }) {
       </div>
       <div className="button-toggle fixed right-0 z-10">
         <button className="z-10 relative rotate-90 top-14 bg-white text-black py-4 px-6 -mr-[25px] mt-[20px]" onClick={handleClick}>CONTACT US</button>
-        <div className={`transition-all h-screen w-screen bg-[#000] left-0 fixed ${isActive ? "top-0" : "-top-[900px]"}`}>
+        <div className={`transition-all h-screen w-screen bg-[#000] left-0 fixed ${isActive ? "top-0" : "-top-[2000px]"}`}>
         <div className="grid grid-cols-6 gap-4 p-6">
           <div className="col-span-3"> <h4 className="font-extralight">SEND US A MESSAGE </h4>
           <ContactForm /></div>
