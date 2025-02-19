@@ -4,7 +4,8 @@ import { initializeLenis, destroyLenis } from '../utils/lenis';
 import { Mulish } from "next/font/google";
 import "./globals.css";
 import 'lenis/dist/lenis.css';
-import Image from "next/image";import WrappedContactForm from "./components/ContactForm";
+import Image from "next/image";
+import WrappedContactForm from "../components/ContactForm";
 
 const mulish = Mulish({
   subsets: ["latin"],

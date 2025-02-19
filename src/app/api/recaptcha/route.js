@@ -1,4 +1,4 @@
-import { sendEmail } from "@/utils/sendEmail";
+import { sendEmail } from "../utils/sendEmail";
 
 export async function POST(req) {
   const formData = await req.formData();
