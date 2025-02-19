@@ -4,62 +4,94 @@ import Lenis from 'lenis';
 import { useEffect } from "react";
 
 
+
+
+
 export default function Home() {
-  useEffect(() => {
-    const lenis = new Lenis({
-      infinite: true,
-      syncTouch: true
-    });
-    
-    function onRaf(time) {
-      lenis.raf(time);
-      requestAnimationFrame(onRaf);
-    }
-    
-    requestAnimationFrame(onRaf);
-    
-// repeat first six items by cloning them and appending them to the .grid
-const repeatItems = (parentEl, total = 0) => {
-  const items = [...parentEl.children];
-  for (let i = 0; i <= total - 1; ++i) {
-    var cln = items[i].cloneNode(true);
-    parentEl.appendChild(cln);
-  }
-};
-repeatItems(document.querySelector(".grid"), 20);
-
-
-
-    
-  }, []);
-
+     
 
   return (
   
      
-       <main> 
+       <main > 
+
+            
 
             <div className="grid text-[50px]">
-            <div className="grid__item"> 1</div>
-            <div className="grid__item">2</div>
-            <div className="grid__item"> 3</div>
-            <div className="grid__item"> 4</div>
-            <div className="grid__item"> 5</div>
-            <div className="grid__item">6</div>
-            <div className="grid__item"> 7</div>
-            <div className="grid__item"> 8</div>
-            <div className="grid__item"> 9</div>
-            <div className="grid__item">10</div>
-            <div className="grid__item"> 11</div>
-            <div className="grid__item"> 12</div>
-            <div className="grid__item"> 13</div>
-            <div className="grid__item">14</div>
-            <div className="grid__item"> 15</div>
-            <div className="grid__item"> 16</div>
-            <div className="grid__item"> 17</div>
-            <div className="grid__item">18</div>
-            <div className="grid__item"> 19</div>
-            <div className="grid__item"> 20</div>
+            <div className="grid__item"> 
+              
+              
+            <Image
+      src="/0arlo-parks.webp"
+      width={400}
+      height={500}
+      alt="Picture of the author"
+         className="  left-[30px]"
+    />
+          <Image
+      src="/0oasis.webp"
+      width={400}
+      height={500}
+      alt="Picture of the author"
+            className="right-[60px] pt-[50px]"
+    />
+
+
+
+
+            </div>
+    
+
+<div className="grid__item">         <Image
+      src="/0deap-valley.webp"
+      width={700}
+      height={500}
+      alt="Picture of the author"
+      className=" pt-[100px] right-[30px]"
+    />
+     
+</div>
+
+<div className="grid__item">         <Image
+      src="/0fontaines.webp"
+      width={600}
+      height={500}
+      alt="Picture of the author"
+      className=" left-[100px]"
+    />
+       
+
+
+</div>
+
+
+
+
+<div className="grid__item"> 
+              
+              
+              <Image
+        src="/0arlo-parks.webp"
+        width={400}
+        height={500}
+        alt="Picture of the author"
+       className="  left-[30px]"
+      />
+            <Image
+        src="/0oasis.webp"
+        width={400}
+        height={500}
+        alt="Picture of the author"
+            className="right-[60px] pt-[50px]"
+      />
+
+  
+              </div>
+      
+
+
+
+
 
           </div>
        </main>
