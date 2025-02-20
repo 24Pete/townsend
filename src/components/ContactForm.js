@@ -49,20 +49,20 @@ export default function ContactForm() {
     <form onSubmit={handleSubmit} className="space-y-4">
       <div>
    
-        <input type="text" name="name" value={formData.name} onChange={handleChange} className="w-full p-2 border" placeholder="Name" required />
+        <input type="text" name="name" value={formData.name} onChange={handleChange} className="w-full p-[20px]  bg-black border-b border-[#5D5D5D] block text-[18px]" placeholder="Name" required />
       </div>
 
       <div>
     
-        <input type="email" name="email" value={formData.email} onChange={handleChange} className="w-full p-2 border"  placeholder="Email" required />
+        <input type="email" name="email" value={formData.email} onChange={handleChange} className="w-full p-[20px]  bg-black border-b border-[#5D5D5D] mt-[30px] block text-[18px]"  placeholder="Email" required />
       </div>
 
       <div>
        
-        <textarea name="message" value={formData.message} onChange={handleChange} className="w-full p-2 border"  placeholder="Your Message" required />
+        <textarea name="message" value={formData.message} onChange={handleChange} className="w-full p-[20px] bg-black border-b border-[#5D5D5D] h-[150px] mt-[30px] block text-[18px] mb-[20px]" placeholder="Your Message" required />
       </div>
 
-      <button type="submit" className="bg-blue-500 text-white px-4 py-2">Send Message</button>
+      <button type="submit" className=" px-4 py-4 w-full bg-[#F47920]  inline-block text-black text-[18px]">SEND MESSAGE</button>
 
       {status && <p className="mt-2 text-sm">{status}</p>}
     </form>

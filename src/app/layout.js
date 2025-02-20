@@ -7,6 +7,8 @@ import 'lenis/dist/lenis.css';
 import Image from "next/image";
 import ContactForm from '../components/ContactForm';
 import { ReCaptchaProvider } from 'next-recaptcha-v3';
+import { XMarkIcon } from '@heroicons/react/24/solid';
+
 
 const mulish = Mulish({
   subsets: ["latin"],
@@ -38,25 +40,42 @@ export default function RootLayout({ children }) {
     <html>
       <body>
     <div className={mulish.className}>
-      <div className="main-container py-4 px-4 z-0 fixed ">
+      <div className="main-container py-4 px-4 z-10 mix-blend-difference fixed ">
         <Image src="/logo-small.svg" width={150} height={120} alt="Header Logo" />
       </div>
       <div className="button-toggle fixed right-0 z-10">
-        <button className="z-10 relative rotate-90 top-14 bg-white text-black py-4 px-6 -mr-[25px] mt-[20px]" onClick={handleClick}>CONTACT US</button>
+      <button
+  className={`z-10 absolute top-6 right-6 flex items-center justify-center transition-all duration-300 ${
+    isActive
+      ? "bg-[#F47920] text-black w-[50px] h-[50px] "
+      : "bg-white text-black w-[50px] h-[150px] "
+  }`}
+  onClick={handleClick}
+>
+  {isActive ? (
+    <XMarkIcon className="w-6 h-6" />
+  ) : (
+    <span className="transform rotate-90 whitespace-nowrap">CONTACT US</span>
+  )}
+</button>
+
+
         <div className={`transition-all h-screen w-screen bg-[#000] left-0 fixed ${isActive ? "top-0" : "-top-[2000px]"}`}>
-        <div className="grid grid-cols-6 gap-4 p-6">
-          <div className="col-span-3"> <h4 className="font-extralight">SEND US A MESSAGE </h4>
+
+
+        <div className="grid grid-cols-6 gap-4 p-[40px] pt-[40px]">
+          <div className="col-span-3"> <h4 className="font-extralight mb-[20px] block">SEND US A MESSAGE </h4>
           <ContactForm />
   </div>
-          <div className="col-span-3"> <h4 className="font-extralight">FIND US ON </h4> 
+          <div className="col-span-3 pl-[60px]"> <h4 className="font-extralight mb-[20px]">FIND US ON </h4> 
           <ul>
             <li> <a href="" className="text-[24px] font-extrabold">instagram</a></li>
             <li> <a href="" className="text-[24px] font-extrabold">facebook</a></li>
             <li> <a href="" className="text-[24px] font-extrabold">x</a></li>
           </ul>
 
-          <div className="col-span-3"> 
-            <h4 className="font-extralight mt-[50px]">TOWNSEND HQ </h4> 
+          
+            <h4 className="font-extralight mt-[90px] mb-[20px]">TOWNSEND HQ </h4> 
             <address className="text-[24px] font-extrabold not-italic whitespace-pre-line">
           {`4-5 Iridium Close
              Burnley
@@ -65,7 +84,7 @@ UK
 BB12 7EJ`}
             </address>
 
-          </div>
+          
           </div>
         </div>
     
@@ -76,6 +95,9 @@ BB12 7EJ`}
         <p className='inline bottom-5 absolute ml-5 w-full'> © 2025 All Rights Reserved </p>
       </div>
       <div className="body-content fixed">
+
+
+
         <div className="flex h-screen w-screen">
           <div className="m-auto w-[500px]">
             <h1 className="font-extrabold text-[24px]">

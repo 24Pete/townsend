@@ -6,8 +6,8 @@ let lenis;
 
 export const initializeLenis = () => {
   lenis = new Lenis({
-   
-    easing: (t) => t,
+    duration: 1.2,
+    easing: (t) => t * (2 - t),
     smooth: true,
     infinite: true,  // Enable infinite scrolling
   });
