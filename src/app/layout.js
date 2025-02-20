@@ -5,7 +5,8 @@ import { Mulish } from "next/font/google";
 import "./globals.css";
 import 'lenis/dist/lenis.css';
 import Image from "next/image";
-
+import ContactForm from '../components/ContactForm';
+import { ReCaptchaProvider } from 'next-recaptcha-v3';
 
 const mulish = Mulish({
   subsets: ["latin"],
@@ -33,6 +34,7 @@ export default function RootLayout({ children }) {
   }, []);
 
   return (
+    <ReCaptchaProvider reCaptchaKey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY}>
     <html>
       <body>
     <div className={mulish.className}>
@@ -44,6 +46,7 @@ export default function RootLayout({ children }) {
         <div className={`transition-all h-screen w-screen bg-[#000] left-0 fixed ${isActive ? "top-0" : "-top-[2000px]"}`}>
         <div className="grid grid-cols-6 gap-4 p-6">
           <div className="col-span-3"> <h4 className="font-extralight">SEND US A MESSAGE </h4>
+          <ContactForm />
   </div>
           <div className="col-span-3"> <h4 className="font-extralight">FIND US ON </h4> 
           <ul>
@@ -89,5 +92,6 @@ BB12 7EJ`}
     </div>
     </body>
     </html>
+     </ReCaptchaProvider>
   );
 }
