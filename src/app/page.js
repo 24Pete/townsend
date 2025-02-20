@@ -26,18 +26,18 @@ export default function Home() {
       width={300}
       height={500}
       alt="Picture of the author"
-         className="  left-[30px] mix-blend-difference"
+         className="  left-[30px] pt-[65px] mix-blend-difference"
     />
           <Image
       src="/0oasis.webp"
       width={400}
       height={500}
       alt="Picture of the author"
-            className="right-[60px] pt-[150px] mix-blend-difference"
+            className="right-[30px] pt-[220px] mix-blend-difference"
     />
 
-<button className="bg-orange-500 text-[18px] text-black right-[20%] absolute py-4 px-6">  ONLINE RECORD SHOP</button>
-<button className="bg-orange-500 text-[18px] text-black left-[10%] absolute py-4 px-6 mt-[600px]">  OVER 500 STORES</button>
+<button className="bg-orange-500 text-[16px] text-black right-[20%] absolute py-4 px-6 mt-[30px] ">  ONLINE RECORD SHOP</button>
+<button className="bg-orange-500 text-[16px] text-black left-[10%] absolute py-4 px-6 mt-[575px]">  OVER 500 STORES</button>
 
             </div>
     
@@ -51,10 +51,10 @@ export default function Home() {
     />
     <Image
       src="/lottery-winners.webp"
-      width={400}
+      width={350}
       height={500}
       alt="Picture of the author"
-      className=" pt-[300px] left-[120px] mix-blend-difference"
+      className=" pt-[200px] left-[50px] mix-blend-difference"
     />
      
 </div>
@@ -74,7 +74,7 @@ export default function Home() {
       alt="Picture of the author"
       className=" right-[100px] mix-blend-difference"
     />
-       <button className="bg-orange-500 text-[18px] text-black right-[25%] absolute py-4 px-6 mt-[550px]">  35 YEARS EXPERIENCE</button>
+       <button className="bg-orange-500 text-[16px] text-black right-[30px] absolute py-4 px-6 mt-[550px]">  35 YEARS EXPERIENCE</button>
 
 </div>
 
@@ -105,7 +105,7 @@ export default function Home() {
       className=" left-[100px] mix-blend-difference"
     />
 
-<button className="bg-orange-500 text-[18px] text-black right-[20%] absolute py-4 px-6 mt-[450px]">  OVER 75K PRE-ORDERS</button>
+<button className="bg-orange-500 text-[16px] text-black right-[150px] absolute py-4 px-6 mt-[450px]">  OVER 75K PRE-ORDERS</button>
 
        
 
@@ -136,23 +136,24 @@ export default function Home() {
 
 <div className="grid__item"> 
               
-              
-              <Image
-        src="/0arlo-parks.webp"
-        width={300}
-        height={500}
-        alt="Picture of the author"
-       className="  left-[30px] mix-blend-difference"
-      />
-            <Image
-        src="/0oasis.webp"
-        width={400}
-        height={500}
-        alt="Picture of the author"
-            className="right-[60px] pt-[150px] mix-blend-difference"
-      />
-<button className="bg-orange-500 text-[18px] text-black right-[20%] absolute py-4 px-6">  ONLINE RECORD SHOP</button>
-<button className="bg-orange-500 text-[18px] text-black left-[10%] absolute py-4 px-6 mt-[600px]">  OVER 500 STORES</button>              </div>
+    
+<Image
+      src="/0arlo-parks.webp"
+      width={300}
+      height={500}
+      alt="Picture of the author"
+         className="  left-[30px] pt-[65px] mix-blend-difference"
+    />
+          <Image
+      src="/0oasis.webp"
+      width={400}
+      height={500}
+      alt="Picture of the author"
+            className="right-[30px] pt-[220px] mix-blend-difference"
+    />
+
+<button className="bg-orange-500 text-[16px] text-black right-[20%] absolute py-4 px-6 mt-[30px]">  ONLINE RECORD SHOP</button>
+<button className="bg-orange-500 text-[16px] text-black left-[10%] absolute py-4 px-6 mt-[575px]">  OVER 500 STORES</button>           </div>
       
 
 

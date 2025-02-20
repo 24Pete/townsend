@@ -99,12 +99,12 @@ BB12 7EJ`}
 
 
         <div className="flex h-screen w-screen">
-          <div className="m-auto w-[500px]">
-            <h1 className="font-extrabold text-[24px]">
+          <div className="m-auto w-[475px]">
+            <h1 className="font-extrabold text-[18px]">
               <span className="title font-normal text-[15px] mr-2">About </span>
               A UK based direct-to-fan eCommerce leader with over 35 years of experience in the music industry. We connect artists and fans through cutting edge solutions.
             </h1>
-            <p className="font-normal text-[24px] mt-[50px]">
+            <p className="font-normal text-[18px] mt-[50px]">
               Big changes are coming - to the industry and our website. Stay tuned!
             </p>
           </div>
