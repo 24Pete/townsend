@@ -13,7 +13,7 @@ export default function Home() {
   return (
   
      
-       <main className="max-w-[100dvw] overflow-hidden "> 
+       <main > 
 
             
 
@@ -226,12 +226,7 @@ export default function Home() {
 </div>
 
 
-<div className="grid__item"> 
-              
-    
-           
-        
-         
+<div className="grid__item">         
 <Image
       src="/images/amazons.webp"
       width={300}
