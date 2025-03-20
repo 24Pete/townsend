@@ -24,7 +24,7 @@ export default function Home() {
         width={300}
         height={500}
         alt="Picture of the Amazons"
-           className=" pt-[200px] sm:left-[30px] w-[400px] sm:w-[300px] sm:pt-[65px] mix-blend-difference"
+           className=" pt-[200px] sm:left-[30px]  sm:w-[300px] sm:pt-[65px] mix-blend-difference"
       />
             
   <button className="bg-orange-500 text-[16px] text-black right-[20%] absolute py-4 px-6 mt-[30px] uppercase">  End-to-End Global D2C Solution</button>
@@ -39,7 +39,7 @@ export default function Home() {
       width={500}
       height={500}
       alt="Picture of the Kylie"
-            className="right-0 sm:right-[30px]  !w-[300px] sm:w-[500px] pt-[250px] sm:pt-[220px] mix-blend-difference"
+            className="right-[30px]  !w-[300px] sm:w-[500px] pt-[250px] sm:pt-[220px] mix-blend-difference"
     />
             
   <button className="bg-orange-500 text-[16px] text-black right-[20%] absolute py-4 px-6 mt-[30px] uppercase"> Strategic Digital Marketing & Growth</button>
@@ -50,14 +50,15 @@ export default function Home() {
               
               
               <Image
-        src="/images/amazons.webp"
-        width={300}
-        height={500}
-        alt="Picture of the Amazons"
-           className="  sm:left-[30px] !width-[80px] sm:w-[300px] sm:pt-[65px] mix-blend-difference"
-      />
+      src="/images/antony-smizerek.webp"
+      width={400}
+      height={500}
+      alt="Picture of the Antony Smizerek"
+      className=" image-test pt-[200px] right-[30px] mix-blend-difference"
+    
+    />
             
-  <button className="bg-orange-500 text-[16px] text-black right-[20%] absolute py-4 px-6 mt-[30px] uppercase">  End-to-End Global D2C Solution</button>
+  <button className="bg-orange-500 text-[16px] text-black right-[20%] absolute py-4 px-6 mt-[30px] uppercase">  Merchandise Production</button>
 
   
               </div>
@@ -65,14 +66,14 @@ export default function Home() {
               
               
               <Image
-        src="/images/amazons.webp"
-        width={300}
-        height={500}
-        alt="Picture of the Amazons"
-           className="  sm:left-[30px] !width-[80px] sm:w-[300px] sm:pt-[65px] mix-blend-difference"
-      />
-            
-  <button className="bg-orange-500 text-[16px] text-black right-[20%] absolute py-4 px-6 mt-[30px] uppercase">  End-to-End Global D2C Solution</button>
+      src="/images/jorja-smith.webp"
+      width={350}
+      height={500}
+      alt="Picture of the Jorja Smith"
+      className=" pt-[150px] sm:pt-[200px] left-[50px] mix-blend-difference"
+    />
+
+  <button className="bg-orange-500 text-[16px] text-black right-[30px] absolute py-4 px-6 mt-[30px] uppercase"> Ticketing & Fan Engagement </button>
 
   
               </div>
@@ -80,14 +81,14 @@ export default function Home() {
               
               
               <Image
-        src="/images/amazons.webp"
-        width={300}
-        height={500}
-        alt="Picture of the Amazons"
-           className="  sm:left-[30px] !width-[80px] sm:w-[300px] sm:pt-[65px] mix-blend-difference"
-      />
+      src="/images/barry-cant-swim.webp"
+      width={450}
+      height={500}
+      alt="Picture of the Barry Cant Swim"
+      className=" right-0 pt-[170px] mix-blend-difference"
+    />
             
-  <button className="bg-orange-500 text-[16px] text-black right-[20%] absolute py-4 px-6 mt-[30px] uppercase">  End-to-End Global D2C Solution</button>
+  <button className="bg-orange-500 text-[16px] text-black right-[20%] absolute py-4 px-6 mt-[30px] uppercase">  Maximised Chart Impact & Sales </button>
 
   
               </div>
@@ -96,20 +97,272 @@ export default function Home() {
               
                
               <Image
+      src="/images/ting-tings.webp"
+      width={400}
+      height={500}
+      alt="Picture of the Ting Tings"
+      className=" pt-0 sm:pt-0 right-[100px] mix-blend-difference"
+    />
+            
+            
+  <button className="bg-orange-500 text-[16px] text-black right-[20%] absolute py-4 px-6 mt-[30px] uppercase">  Excellent Customer Service & Support</button>
+
+  
+              </div>
+
+              <div className="grid__item"> 
+              
+              
+               
+              <Image
+      src="/images/noel-gallagher.webp"
+      width={370}
+      height={500}
+      alt="Picture of Noel Gallagher"
+      className="  pt-[130px] sm:pt-[100px] right-[30px] mix-blend-difference"
+    />
+            
+            
+  <button className="bg-orange-500 text-[16px] text-black right-[20%] absolute py-4 px-6 mt-[30px] uppercase">  Strategic Digital Marketing & Growth</button>
+
+  
+              </div>
+
+
+              <div className="grid__item"> 
+              
+              
+               
+              <Image
+      src="/images/james.webp"
+      width={400}
+      height={500}
+      alt="Picture of James"
+      className="  sm:w-[500px] pt-[180px] left-[30px] mix-blend-difference"
+    />
+            
+  <button className="bg-orange-500 text-[16px] text-black right-[20%] absolute py-4 px-6 mt-[30px] uppercase">  Merchandise Production</button>
+
+  
+              </div>
+
+
+              <div className="grid__item"> 
+              
+              
+               
+              <Image
+      src="/images/blossoms.webp"
+      width={450}
+      height={500}
+      alt="Picture of the Blossoms"
+      className="  pt-[170px] mix-blend-difference"
+    />
+            
+  <button className="bg-orange-500 text-[16px] text-black right-[30px] absolute py-4 px-6 mt-[30px] uppercase">  Ticketing & Fan Engagement</button>
+
+  
+              </div>  
+
+
+              <div className="grid__item"> 
+              
+              
+               
+              <Image
+      src="/images/steven-wilson.webp"
+      width={250}
+      height={500}
+      alt="Picture of Steven Wilson"
+      className=" pt-[120px]  right-[50px] mix-blend-difference"
+    />
+            
+  <button className="bg-orange-500 text-[16px] text-black left-[30px] absolute py-4 px-6 mt-[30px] uppercase">  Maximised Chart Impact & Sales</button>
+
+  
+              </div> 
+
+              <div className="grid__item"> 
+              
+              
+               
+              <Image
+      src="/images/courteeners.webp"
+      width={400}
+      height={500}
+      alt="Picture of the Courteeners"
+      className=" pt-[170px] sm:pt-0 right-[30px] mix-blend-difference"
+    />
+            
+  <button className="bg-orange-500 text-[16px] text-black left-[30px] absolute py-4 px-6 mt-[30px] uppercase">   Excellent Customer Service & Support</button>
+
+  
+              </div> 
+
+              <div className="grid__item"> 
+              
+              
+               
+              <Image
+      src="/images/chesney.webp"
+      width={400}
+      height={500}
+      alt="Picture of the Chesney"
+      className=" pt-[150px] right-[30px] mix-blend-difference"
+    /> 
+  <button className="bg-orange-500 text-[16px] text-black left-[30px] absolute py-4 px-6 mt-[30px] uppercase">   Strategic Digital Marketing & Growth</button>
+
+  
+              </div> 
+
+              <div className="grid__item"> 
+              
+              
+               
+              <Image
+      src="/images/lottery-winners.webp"
+      width={350}
+      height={500}
+      alt="Picture of the Lottery Winners"
+      className=" pt-[150px] sm:pt-[200px] left-[50px] mix-blend-difference"
+    />
+  <button className="bg-orange-500 text-[16px] text-black right-[30px] absolute py-4 px-6 mt-[30px] uppercase">  Merchandise Production</button>
+
+  
+              </div> 
+
+              <div className="grid__item"> 
+              
+              
+               
+              <Image
+      src="/images/darkness.webp"
+      width={400}
+      height={500}
+      alt="Picture of the Darkness"
+      className=" left-[40px] pt-[165px] mix-blend-difference"
+    />
+  <button className="bg-orange-500 text-[16px] text-black right-[30px] absolute py-4 px-6 mt-[30px] uppercase">  Ticketing & Fan Engagement</button>
+
+  
+              </div> 
+
+              <div className="grid__item"> 
+              
+              
+              <Image
+      src="/images/nemzz.webp"
+      width={370}
+      height={500}
+      alt="Picture of Nemzz"
+      className=" mix-blend-difference pt-[150px] sm:pt-[300px]"
+    />
+  <button className="bg-orange-500 text-[16px] text-black right-[30px] absolute py-4 px-6 mt-[30px] uppercase">  Maximised Chart Impact & Sales</button>
+
+  
+              </div> 
+
+
+              <div className="grid__item"> 
+              
+              
+              <Image
+      src="/images/rizzle-kicks.webp"
+      width={400}
+      height={500}
+      alt="Picture of the Rizzle Kicks"
+      className=" pt-[150px] right-[30px] mix-blend-difference"
+    />
+  <button className="bg-orange-500 text-[16px] text-black left-[30px] absolute py-4 px-6 mt-[30px] uppercase">  Excellent Customer Service & Support </button>
+
+  
+              </div> 
+
+
+              <div className="grid__item"> 
+              
+              
+              <Image
+      src="/images/horrors.webp"
+      width={350}
+      height={500}
+      alt="Picture of the Horrors"
+      className=" pt-[150px] left-[30px] mix-blend-difference"
+    />
+  <button className="bg-orange-500 text-[16px] text-black left-[30px] absolute py-4 px-6 mt-[30px] uppercase">   Strategic Digital Marketing & Growth </button>
+
+  
+              </div> 
+
+              <div className="grid__item"> 
+              
+              
+              <Image
+      src="/images/pete-doherty.webp"
+      width={400}
+      height={500}
+      alt="Picture of the Pete Doherty"
+      className=" sm:left-[30px] pt-[150px] mix-blend-difference"
+    />
+  <button className="bg-orange-500 text-[16px] text-black right-[30px] absolute py-4 px-6 mt-[30px] uppercase">   Merchandise Production </button>
+
+  
+              </div> 
+
+
+              <div className="grid__item"> 
+              
+              
+              <Image
+      src="/images/nina-nesbitt.webp"
+      width={400}
+      height={500}
+      alt="Picture of Nina Nesbitt"
+      className=" left-[30px] pt-[150px] mix-blend-difference"
+    />
+
+
+  <button className="bg-orange-500 text-[16px] text-black left-[30px] absolute py-4 px-6 mt-[30px] uppercase">    Ticketing & Fan Engagement</button>
+
+  
+              </div> 
+
+
+              <div className="grid__item"> 
+              
+              
+              <Image
+      src="/images/john-grant.webp"
+      width={400}
+      height={500}
+      alt="Picture of the John grant"
+      className=" right-[30px] pt-[140px] sm:pt-[250px] mix-blend-difference"
+    />
+
+
+  <button className="bg-orange-500 text-[16px] text-black left-[30px] absolute py-4 px-6 mt-[30px] uppercase">    Maximised Chart Impact & Sales </button>
+
+  
+              </div> 
+
+
+
+
+              <div className="grid__item"> 
+              
+              
+              <Image
         src="/images/amazons.webp"
         width={300}
         height={500}
         alt="Picture of the Amazons"
-           className=" pt-[200px] sm:left-[30px] w-[400px] sm:w-[300px] sm:pt-[65px] mix-blend-difference"
+           className=" pt-[200px] sm:left-[30px]  sm:w-[300px] sm:pt-[65px] mix-blend-difference"
       />
-            
-            
             
   <button className="bg-orange-500 text-[16px] text-black right-[20%] absolute py-4 px-6 mt-[30px] uppercase">  End-to-End Global D2C Solution</button>
 
   
               </div>
-
 
             </div>
    {/* Desktop */}
@@ -129,7 +382,7 @@ export default function Home() {
       width={500}
       height={500}
       alt="Picture of the Kylie"
-            className="right: 0px sm:right-[30px]  !w-[300px] sm:w-[500px] pt-[250px] sm:pt-[220px] mix-blend-difference"
+            className="right: 0px sm:right-[30px]  pt-[250px] sm:pt-[220px] mix-blend-difference"
     />
 
 <button className="bg-orange-500 text-[16px] text-black right-[20%] absolute py-4 px-6 mt-[30px] uppercase">  End-to-End Global D2C Solution</button>
@@ -236,7 +489,7 @@ export default function Home() {
       width={600}
       height={500}
       alt="Picture of the Chesney"
-      className=" w-[300px] sm:w-[600px]sm:pt-[100px] right-[30px] mix-blend-difference"
+      className=" w-[300px] sm:w-[600px] sm:pt-[100px] right-[30px] mix-blend-difference"
     />
     <Image
       src="/images/lottery-winners.webp"
@@ -276,7 +529,7 @@ export default function Home() {
     />
     <Image
       src="/images/horrors.webp"
-      width={350}
+      width={450}
       height={500}
       alt="Picture of the Horrors"
       className=" pt-[500px] sm:pt-[200px] left-[50px] mix-blend-difference"
@@ -335,7 +588,7 @@ export default function Home() {
       width={500}
       height={500}
       alt="Picture of the Kylie"
-            className="right: 0px sm:right-[30px]  !w-[300px] sm:w-[500px] pt-[250px] sm:pt-[220px] mix-blend-difference"
+            className="right: 0px sm:right-[30px]   sm:w-[500px] pt-[250px] sm:pt-[220px] mix-blend-difference"
     />
 
 
