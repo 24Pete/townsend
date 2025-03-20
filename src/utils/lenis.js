@@ -20,10 +20,15 @@ export const initializeLenis = () => {
   }
 
   requestAnimationFrame(raf);
+
+  // Prevent iOS overscroll issues
+  document.body.style.overscrollBehavior = 'none';
+
 };
 
 export const destroyLenis = () => {
   if (lenis) {
     lenis.destroy();
+    lenis = null;
   }
 };
