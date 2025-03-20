@@ -27,11 +27,8 @@ height:100vh;
 .grid__item img {
   position: absolute;
 }
-.test-image {
 
-
-}
 .image-test {
-  -webkit-backface-visibility: visible;
-  translate3d(0, 0, 0);
+  backface-visibility: visible;
+  transform: translate3d(0, 0, 0);
 }
