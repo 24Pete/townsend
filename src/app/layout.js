@@ -71,19 +71,21 @@ export default function RootLayout({ children }) {
 
 
         <div className="grid grid-cols-6 gap-4 p-[40px] pt-[40px]">
-          <div className="col-span-3"> <h4 className="font-extralight mb-[20px] block uppercase">Get in touch to find out how we can support your campaigns. </h4>
+          <div className="col-span-6 sm:col-span-3"> 
+            <h4 className="font-extralight mb-[20px] pr-[50px] sm:pr-0 block uppercase">Get in touch to find out how we can support your campaigns. </h4>
           <ContactForm />
   </div>
-          <div className="col-span-3 pl-[60px]"> <h4 className="font-extralight mb-[20px]">FIND US ON </h4> 
+          <div className="col-span-6 sm:col-span-3 sm:pl-[60px]">
+             <h4 className="font-extralight mb-[20px]">FIND US ON </h4> 
           <ul>
-            <li> <a href="" className="text-[24px] font-extrabold">instagram</a></li>
-            <li> <a href="" className="text-[24px] font-extrabold">facebook</a></li>
-            <li> <a href="" className="text-[24px] font-extrabold">x</a></li>
+            <li> <a href="" className="text-[18px] sm:text-[24px]font-extrabold">instagram</a></li>
+            <li> <a href="" className="text-[18px] sm:text-[24px] font-extrabold">facebook</a></li>
+            <li> <a href="" className="text-[18px] sm:text-[24px] font-extrabold">x</a></li>
           </ul>
 
           
-            <h4 className="font-extralight mt-[90px] mb-[20px]">TOWNSEND HQ </h4> 
-            <address className="text-[24px] font-extrabold not-italic whitespace-pre-line">
+            <h4 className="font-extralight mt-[10px] sm:mt-[90px] mb-[20px]">TOWNSEND HQ </h4> 
+            <address className=" text-[18px] sm:text-[24px] font-extrabold not-italic whitespace-pre-line">
           {`4-5 Iridium Close
              Burnley
 Lancashire
