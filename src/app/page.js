@@ -166,7 +166,7 @@ export default function Home() {
       width={370}
       height={500}
       alt="Picture of Nemzz"
-      className=" right-[100px] mix-blend-difference pt-[550px] sm:pt-[300px]"
+      className=" right-[100px] mix-blend-difference pt-[450px] sm:pt-[300px]"
     />
 
 </div>
