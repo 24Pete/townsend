@@ -14,10 +14,106 @@ export default function Home() {
   
      
        <main > 
-
+      {/* Mobile */}
+            <div className="grid text-[50px] block sm:hidden">
+            <div className="grid__item"> 
+              
+              
+              <Image
+        src="/images/amazons.webp"
+        width={300}
+        height={500}
+        alt="Picture of the Amazons"
+           className=" pt-[200px] sm:left-[30px] w-[400px] sm:w-[300px] sm:pt-[65px] mix-blend-difference"
+      />
             
+  <button className="bg-orange-500 text-[16px] text-black right-[20%] absolute py-4 px-6 mt-[30px] uppercase">  End-to-End Global D2C Solution</button>
 
-            <div className="grid text-[50px]">
+  
+              </div>
+              <div className="grid__item"> 
+              
+              
+              <Image
+      src="/images/kylie.webp"
+      width={500}
+      height={500}
+      alt="Picture of the Kylie"
+            className="right-0 sm:right-[30px]  !w-[300px] sm:w-[500px] pt-[250px] sm:pt-[220px] mix-blend-difference"
+    />
+            
+  <button className="bg-orange-500 text-[16px] text-black right-[20%] absolute py-4 px-6 mt-[30px] uppercase"> Strategic Digital Marketing & Growth</button>
+
+  
+              </div>
+              <div className="grid__item"> 
+              
+              
+              <Image
+        src="/images/amazons.webp"
+        width={300}
+        height={500}
+        alt="Picture of the Amazons"
+           className="  sm:left-[30px] !width-[80px] sm:w-[300px] sm:pt-[65px] mix-blend-difference"
+      />
+            
+  <button className="bg-orange-500 text-[16px] text-black right-[20%] absolute py-4 px-6 mt-[30px] uppercase">  End-to-End Global D2C Solution</button>
+
+  
+              </div>
+              <div className="grid__item"> 
+              
+              
+              <Image
+        src="/images/amazons.webp"
+        width={300}
+        height={500}
+        alt="Picture of the Amazons"
+           className="  sm:left-[30px] !width-[80px] sm:w-[300px] sm:pt-[65px] mix-blend-difference"
+      />
+            
+  <button className="bg-orange-500 text-[16px] text-black right-[20%] absolute py-4 px-6 mt-[30px] uppercase">  End-to-End Global D2C Solution</button>
+
+  
+              </div>
+              <div className="grid__item"> 
+              
+              
+              <Image
+        src="/images/amazons.webp"
+        width={300}
+        height={500}
+        alt="Picture of the Amazons"
+           className="  sm:left-[30px] !width-[80px] sm:w-[300px] sm:pt-[65px] mix-blend-difference"
+      />
+            
+  <button className="bg-orange-500 text-[16px] text-black right-[20%] absolute py-4 px-6 mt-[30px] uppercase">  End-to-End Global D2C Solution</button>
+
+  
+              </div>
+              <div className="grid__item"> 
+              
+              
+               
+              <Image
+        src="/images/amazons.webp"
+        width={300}
+        height={500}
+        alt="Picture of the Amazons"
+           className=" pt-[200px] sm:left-[30px] w-[400px] sm:w-[300px] sm:pt-[65px] mix-blend-difference"
+      />
+            
+            
+            
+  <button className="bg-orange-500 text-[16px] text-black right-[20%] absolute py-4 px-6 mt-[30px] uppercase">  End-to-End Global D2C Solution</button>
+
+  
+              </div>
+
+
+            </div>
+   {/* Desktop */}
+            <div className="grid text-[50px] hidden sm:block">
             <div className="grid__item"> 
               
               
