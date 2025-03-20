@@ -231,6 +231,7 @@ export default function Home() {
     
            
         
+         
 <Image
       src="/images/amazons.webp"
       width={300}
@@ -245,6 +246,7 @@ export default function Home() {
       alt="Picture of the Kylie"
             className="right-[30px]  w-[400px] sm:w-[500px] pt-[500px] sm:pt-[220px] mix-blend-difference"
     />
+
 
 
 <button className="bg-orange-500 text-[16px] text-black right-[20%] absolute py-4 px-6 mt-[30px] uppercase">  End-to-End Global D2C Solution</button>
