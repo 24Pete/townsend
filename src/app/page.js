@@ -120,7 +120,7 @@ export default function Home() {
       width={400}
       height={500}
       alt="Picture of the author"
-      className=" right-[200px] mix-blend-difference"
+      className=" right-[50px] mix-blend-difference"
     />
        <Image
       src="/images/courteeners.webp"
