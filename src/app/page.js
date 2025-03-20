@@ -239,7 +239,7 @@ export default function Home() {
       width={500}
       height={500}
       alt="Picture of the Kylie"
-            className="right-[30px]  w-[400px] sm:w-[500px] pt-[500px] sm:pt-[220px] mix-blend-difference"
+             className="right-[30px]  w-[300px] sm:w-[500px] pt-[300px] sm:pt-[220px] mix-blend-difference"
     />
 
 
