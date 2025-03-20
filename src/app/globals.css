@@ -21,14 +21,12 @@ main {
 flex-direction: column;
 }
 .grid__item {
-height:100vh;
+height:100dvh;
   overflow: visible;
+  overflow-x: hidden;
 }
 .grid__item img {
   position: absolute;
 }
 
-.image-test {
-  backface-visibility: visible;
-  transform: translate3d(0, 0, 0);
-}
+
