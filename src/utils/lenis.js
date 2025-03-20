@@ -10,7 +10,8 @@ export const initializeLenis = () => {
     easing: (t) => t * (2 - t),
     smooth: true,
     touchMultiplier: 0,
-    infinite: true,  // Enable infinite scrolling
+    infinite: true,
+    syncTouch: true,  // Enable infinite scrolling
   });
 
   function raf(time) {
