@@ -33,7 +33,7 @@ export default function Home() {
       width={500}
       height={500}
       alt="Picture of the Kylie"
-            className="right-[30px]  w-[300px] sm:w-[500px] pt-[200px] sm:pt-[220px] mix-blend-difference"
+            className="right-[30px]  w-[300px] sm:w-[500px] pt-[250px] sm:pt-[220px] mix-blend-difference"
     />
 
 <button className="bg-orange-500 text-[16px] text-black right-[20%] absolute py-4 px-6 mt-[30px] uppercase">  End-to-End Global D2C Solution</button>
@@ -239,7 +239,7 @@ export default function Home() {
       width={500}
       height={500}
       alt="Picture of the Kylie"
-            className="right-[30px]  w-[300px] sm:w-[500px] pt-[200px] sm:pt-[220px] mix-blend-difference"
+            className="right-[30px]  w-[300px] sm:w-[500px] pt-[250px] sm:pt-[220px] mix-blend-difference"
     />
 
 
