@@ -59,7 +59,7 @@ export default function ContactForm() {
 
       <div>
        
-        <textarea name="message" value={formData.message} onChange={handleChange} className="w-full p-[20px] bg-black border-b border-[#5D5D5D] h-[80px] sm:h-[150px] mt-[30px] block text-[18px] mb-[20px]" placeholder="Your Message" required />
+        <textarea name="message" value={formData.message} onChange={handleChange} className="w-full p-[20px] bg-black border-b border-[#5D5D5D] h-[80px] sm:h-[150px] mt-[30px] block text-[18px] mb-[20px] " placeholder="Your Message" required />
       </div>
 
       <button type="submit" className=" px-4 py-4 w-full bg-[#F47920]  inline-block text-black text-[18px]">SEND MESSAGE</button>

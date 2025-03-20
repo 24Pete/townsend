@@ -67,7 +67,7 @@ export default function RootLayout({ children }) {
 </button>
 
 
-        <div className={`transition-all h-screen w-screen bg-[#000] left-0 fixed ${isActive ? "top-0" : "-top-[2000px]"}`}>
+        <div className={`transition-all h-screen w-screen bg-[#000] left-0 fixed overflow-scroll ${isActive ? "top-0" : "-top-[2000px]"}`}>
 
 
         <div className="grid grid-cols-6 gap-4 p-[40px] pt-[40px]">
@@ -75,7 +75,7 @@ export default function RootLayout({ children }) {
             <h4 className="font-extralight mb-[20px] pr-[50px] sm:pr-0 block uppercase">Get in touch to find out how we can support your campaigns. </h4>
           <ContactForm />
   </div>
-          <div className="col-span-6 sm:col-span-3 sm:pl-[60px]">
+          <div className="col-span-6 sm:col-span-3 sm:pl-[60px] hidden sm:block">
              <h4 className="font-extralight mb-[20px]">FIND US ON </h4> 
           <ul>
             <li> <a href="" className="text-[18px] sm:text-[24px]font-extrabold">instagram</a></li>
@@ -95,6 +95,30 @@ BB12 7EJ`}
 
           
           </div>
+
+
+          <div className="col-span-3 sm:pl-[60px] block sm:hidden">
+             <h4 className="font-extralight mb-[5px]">FIND US ON </h4> 
+          <ul>
+            <li> <a href="" className="text-[16px] sm:text-[24px] font-extrabold">instagram</a></li>
+            <li> <a href="" className="text-[16px] sm:text-[24px] font-extrabold">facebook</a></li>
+            <li> <a href="" className="text-[16px] sm:text-[24px] font-extrabold">x</a></li>
+          </ul>
+          </div>
+          <div className="col-span-3 sm:pl-[60px] block sm:hidden">
+            <h4 className="font-extralight  mb-[5px]">TOWNSEND HQ </h4> 
+            <address className=" text-[16px] sm:text-[24px] font-extrabold not-italic whitespace-pre-line">
+          {`4-5 Iridium Close
+             Burnley
+Lancashire
+UK
+BB12 7EJ`}
+            </address>
+            
+          
+          </div>
+
+
         </div>
     
         </div>
