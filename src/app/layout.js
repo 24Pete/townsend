@@ -123,7 +123,7 @@ BB12 7EJ`}
     
         </div>
       </div>
-      <div className={`bottom-container fixed bottom-0 py-4 px-4 ${isActive ? "z-10" : "z-0"}`}>
+      <div className={`bottom-container fixed bottom-0 py-4 px-4 ${isActive ? "sm:z-10" : "z-0"}`}>
         <Image src="/logo-small.svg" width={550} height={120} alt="Footer Logo" className='inline-block' />
         <p className='inline bottom-5 absolute ml-5 w-full'> © 2025 All Rights Reserved </p>
       </div>
