@@ -26,14 +26,14 @@ export default function Home() {
       width={300}
       height={500}
       alt="Picture of the Amazons"
-         className="  sm:left-[30px] width-[150px] sm:w-[300px] sm:pt-[65px] mix-blend-difference"
+         className="  sm:left-[30px] !width-[80px] sm:w-[300px] sm:pt-[65px] mix-blend-difference"
     />
               <Image
       src="/images/kylie.webp"
       width={500}
       height={500}
       alt="Picture of the Kylie"
-            className="right-[30px]  w-[300px] sm:w-[500px] pt-[250px] sm:pt-[220px] mix-blend-difference"
+            className="right: 0px sm:right-[30px]  !w-[300px] sm:w-[500px] pt-[250px] sm:pt-[220px] mix-blend-difference"
     />
 
 <button className="bg-orange-500 text-[16px] text-black right-[20%] absolute py-4 px-6 mt-[30px] uppercase">  End-to-End Global D2C Solution</button>
@@ -232,14 +232,14 @@ export default function Home() {
       width={300}
       height={500}
       alt="Picture of the Amazons"
-         className="  sm:left-[30px] width-[150px] sm:w-[300px] sm:pt-[65px] mix-blend-difference"
+         className="  sm:left-[30px] !width-[80px] sm:w-[300px] sm:pt-[65px] mix-blend-difference"
     />
               <Image
       src="/images/kylie.webp"
       width={500}
       height={500}
       alt="Picture of the Kylie"
-            className="right-[30px]  w-[300px] sm:w-[500px] pt-[250px] sm:pt-[220px] mix-blend-difference"
+            className="right: 0px sm:right-[30px]  !w-[300px] sm:w-[500px] pt-[250px] sm:pt-[220px] mix-blend-difference"
     />
 
 
