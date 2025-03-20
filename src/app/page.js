@@ -47,11 +47,8 @@ export default function Home() {
       width={500}
       height={500}
       alt="Picture of the Antony Smizerek"
-      className=" pt-[100px] right-[30px] mix-blend-difference"
-      style={{
-        -webkit-backface-visibility: visible;
-        translate3d(0, 0, 0);
-      }}
+      className=" image-test pt-[100px] right-[30px] mix-blend-difference"
+    
     />
     <Image
       src="/images/jorja-smith.webp"

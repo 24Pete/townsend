@@ -31,4 +31,7 @@ height:100vh;
 
 
 }
-
+.image-test {
+  -webkit-backface-visibility: visible;
+  translate3d(0, 0, 0);
+}
