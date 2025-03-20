@@ -38,6 +38,13 @@ export default function RootLayout({ children }) {
   return (
     <ReCaptchaProvider reCaptchaKey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY}>
     <html>
+    <head>
+        <title>Townsend Music - Leading D2C Ecommerce Music Platform</title>
+        <meta name="description" content="Leading D2C Ecommerce Music Platform" />
+        <meta property="og:title" content="Townsend Music" />
+        <meta property="og:description" content="Leading D2C Ecommerce Music Platform" />
+      
+      </head>
       <body>
     <div className={mulish.className}>
       <div className="main-container py-4 px-4 z-10 mix-blend-difference fixed ">
