@@ -28,7 +28,7 @@ export default function Home() {
       alt="Picture of the author"
          className="  left-[30px] pt-[65px] mix-blend-difference"
     />
-          <Image
+              <Image
       src="/images/kylie.webp"
       width={500}
       height={500}
@@ -44,7 +44,7 @@ export default function Home() {
 
 <div className="grid__item">         <Image
       src="/images/antony-smizerek.webp"
-      width={700}
+      width={500}
       height={500}
       alt="Picture of the author"
       className=" pt-[100px] right-[30px] mix-blend-difference"
@@ -61,7 +61,7 @@ export default function Home() {
 
 <div className="grid__item">         <Image
       src="/images/barry-cant-swim.webp"
-      width={600}
+      width={450}
       height={500}
       alt="Picture of the author"
       className=" left-[100px] mix-blend-difference"
@@ -101,10 +101,10 @@ export default function Home() {
   
          <Image
       src="/images/blossoms.webp"
-      width={700}
+      width={650}
       height={500}
       alt="Picture of the author"
-      className=" left-[30px] mix-blend-difference"
+      className=" left-[30px] pt-[60px] mix-blend-difference"
     />
 
 <button className="bg-orange-500 text-[16px] text-black right-[150px] absolute py-4 px-6 mt-[450px] uppercase">  Ticketing & Fan Engagement
