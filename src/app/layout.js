@@ -64,7 +64,7 @@ export default function RootLayout({ children }) {
 
 
         <div className="grid grid-cols-6 gap-4 p-[40px] pt-[40px]">
-          <div className="col-span-3"> <h4 className="font-extralight mb-[20px] block">SEND US A MESSAGE </h4>
+          <div className="col-span-3"> <h4 className="font-extralight mb-[20px] block uppercase">Get in touch to find out how we can support your campaigns. </h4>
           <ContactForm />
   </div>
           <div className="col-span-3 pl-[60px]"> <h4 className="font-extralight mb-[20px]">FIND US ON </h4> 

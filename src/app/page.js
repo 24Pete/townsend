@@ -30,7 +30,7 @@ export default function Home() {
     />
           <Image
       src="/images/kylie.webp"
-      width={400}
+      width={500}
       height={500}
       alt="Picture of the author"
             className="right-[30px] pt-[220px] mix-blend-difference"
@@ -215,10 +215,10 @@ export default function Home() {
        
        <Image
       src="/images/john-grant.webp"
-      width={300}
+      width={550}
       height={500}
       alt="Picture of the author"
-      className=" right-[100px] mix-blend-difference"
+      className=" right-[100px] pt-[250px] mix-blend-difference"
     />
 
 
@@ -235,13 +235,14 @@ export default function Home() {
       alt="Picture of the author"
          className="  left-[30px] pt-[65px] mix-blend-difference"
     />
-          <Image
+              <Image
       src="/images/kylie.webp"
-      width={400}
+      width={500}
       height={500}
       alt="Picture of the author"
             className="right-[30px] pt-[220px] mix-blend-difference"
     />
+
 
 <button className="bg-orange-500 text-[16px] text-black right-[20%] absolute py-4 px-6 mt-[30px] uppercase">  End-to-End Global D2C Solution</button>
 <button className="bg-orange-500 text-[16px] text-black left-[10%] absolute py-4 px-6 mt-[575px] uppercase">  Strategic Digital Marketing & Growth</button>           </div>
