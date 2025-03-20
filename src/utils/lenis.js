@@ -9,6 +9,7 @@ export const initializeLenis = () => {
     duration: 1.2,
     easing: (t) => t * (2 - t),
     smooth: true,
+    touchMultiplier: 0,
     infinite: true,  // Enable infinite scrolling
   });
 
