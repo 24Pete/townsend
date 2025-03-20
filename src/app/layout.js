@@ -118,7 +118,7 @@ BB12 7EJ`}
           </div>
         </div>
       </div>
-      <div className="lenis-container max-w-[100dvw] ">{children}</div>
+      <div className="lenis-container">{children}</div>
     </div>
     </body>
     </html>
