@@ -104,7 +104,7 @@ export default function Home() {
       width={700}
       height={500}
       alt="Picture of the author"
-      className=" left-[100px] mix-blend-difference"
+      className=" left-[30px] mix-blend-difference"
     />
 
 <button className="bg-orange-500 text-[16px] text-black right-[150px] absolute py-4 px-6 mt-[450px] uppercase">  Ticketing & Fan Engagement
@@ -157,22 +157,22 @@ export default function Home() {
       width={600}
       height={500}
       alt="Picture of the author"
-      className=" left-[100px] mix-blend-difference"
+      className=" left-[40px] pt-[65px] mix-blend-difference"
     />
        
        <Image
       src="/images/nemzz.webp"
-      width={500}
+      width={370}
       height={500}
       alt="Picture of the author"
-      className=" right-[100px] mix-blend-difference pt-[400px]"
+      className=" right-[100px] mix-blend-difference pt-[300px]"
     />
 
 </div>
 
 <div className="grid__item">         <Image
       src="/images/rizzle-kicks.webp"
-      width={700}
+      width={500}
       height={500}
       alt="Picture of the author"
       className=" pt-[100px] right-[30px] mix-blend-difference"
@@ -195,7 +195,7 @@ export default function Home() {
       width={700}
       height={500}
       alt="Picture of the author"
-      className=" left-[100px] mix-blend-difference"
+      className=" left-[100px] pt-[150px] mix-blend-difference"
     />
 
 <button className="bg-orange-500 text-[16px] text-black right-[150px] absolute py-4 px-6 mt-[450px] uppercase">  Data-Driven Campaign Strategy</button>
@@ -207,15 +207,15 @@ export default function Home() {
 
 <div className="grid__item">         <Image
       src="/images/nina-nesbitt.webp"
-      width={600}
+      width={400}
       height={500}
       alt="Picture of the author"
-      className=" left-[100px] mix-blend-difference"
+      className=" left-[30px] mix-blend-difference"
     />
        
        <Image
       src="/images/john-grant.webp"
-      width={550}
+      width={450}
       height={500}
       alt="Picture of the author"
       className=" right-[100px] pt-[250px] mix-blend-difference"
