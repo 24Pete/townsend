@@ -78,9 +78,9 @@ export default function RootLayout({ children }) {
           <div className="col-span-6 sm:col-span-3 sm:pl-[60px] hidden sm:block">
              <h4 className="font-extralight mb-[20px]">FIND US ON </h4> 
           <ul>
-            <li> <a href="" className="text-[18px] sm:text-[24px]font-extrabold">instagram</a></li>
-            <li> <a href="" className="text-[18px] sm:text-[24px] font-extrabold">facebook</a></li>
-            <li> <a href="" className="text-[18px] sm:text-[24px] font-extrabold">x</a></li>
+            <li> <a href="https://instagram.com/townsendmusicuk" className="text-[18px] sm:text-[24px] font-extrabold">instagram</a></li>
+            <li> <a href="https://facebook.com/townsendmusicuk" className="text-[18px] sm:text-[24px] font-extrabold">facebook</a></li>
+            <li> <a href="https://x.com/townsendmusicuk" className="text-[18px] sm:text-[24px] font-extrabold">x</a></li>
           </ul>
 
           
